@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Button Dropdown</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dropdown">
+        <img src="menu.png" alt="Menu Button" class="dropdown-button">
+
+        <div class="dropdown-content">
+            <a href="#" onclick="showContent('letters'); return false;">Letters</a>
+            <a href="#" onclick="showContent('numbers'); return false;">Numbers</a>
+        </div>
+    </div>
+
+    <div id="display-area">
+        <p>Select an option to display content.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
